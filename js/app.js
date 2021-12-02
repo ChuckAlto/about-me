@@ -14,16 +14,25 @@ if (game === true){
 }
 
 let counter = 0;
-let ansOne= prompt('Did I ever live outside the United States').toLowerCase();
-//console.log("Correct, I lived in Saudi Arabia for 2 years")
-if (ansOne === 'yes' || ansOne === 'y'){
-  alert('Correct ' + user + '! I lived in Saudi Arabia for two years.');
-  counter++;
-} else{
-  alert('Sorry ' + user + ' That is incorrect. I lived in Saudi Arabia for two years.');
-}
+
+function quest1 (){
+  
+  let ansOne= prompt('Did I ever live outside the United States').toLowerCase();
+  //console.log("Correct, I lived in Saudi Arabia for 2 years")
+  if (ansOne === 'yes' || ansOne === 'y'){
+    alert('Correct ' + user + '! I lived in Saudi Arabia for two years.');
+    counter++;
+  } else{
+    alert('Sorry ' + user + ' That is incorrect. I lived in Saudi Arabia for two years.');
+  }
+  }
+
+  quest1();
 
 
+
+function quest2 (){
+  
 let ansTwo= prompt('Do I have an undergraduate degree in Criminology?').toLowerCase();
 //console.log('that is correct')
 if (ansTwo === 'yes' || ansTwo === 'y'){
@@ -32,7 +41,12 @@ if (ansTwo === 'yes' || ansTwo === 'y'){
 } else {
   alert ('Incorrect. I do have a degree in Criminology, I thought I would join the FBI and hunt paranormal entities.  I may have watched too much X-files growing up.');
 }
+}
 
+quest2();
+
+
+function quest3 (){
 
 let ansThree= prompt('Did I watch the X-files too much growing up?').toLowerCase();
 //console.log('never')
@@ -42,8 +56,12 @@ if (ansThree === 'yes' || ansThree === 'y'){
   alert('Correct! There is never too much X-files.');
   counter++;
 }
+}
+
+quest3();
 
 
+function quest4 (){
 let ansFour = prompt('Did I meet my wife working at the casino?').toLowerCase();
 //console.log('I sure did')
 if (ansFour === 'yes' || ansFour === 'y'){
@@ -52,8 +70,10 @@ if (ansFour === 'yes' || ansFour === 'y'){
 } else {
   alert('Sorry wrong answer. We have been together 11 years, Married for three.');
 }
+}
+quest4();
 
-
+function quest5 (){
 let ansFive = prompt('Would I like to design video games after Code Fellows?').toLowerCase();
 //console.log('yes I would')
 if (ansFive === 'yes' || ansFive === 'y'){
@@ -62,6 +82,12 @@ if (ansFive === 'yes' || ansFive === 'y'){
 } else {
   alert('Sorry ' + user + ' wrong answer. whether it be my job or in my own free time I would like to design, code, and release at least one game.');
 }
+}
+
+quest5();
+
+function quest6(){
+
 
 let correctA = '37';
 let attempts = 3;
@@ -83,7 +109,11 @@ if(guessNum === '37'){
 } else {
   alert('out of guesses the correct answer was 37');
 }
+}
 
+quest6 ();
+
+function quest7(){
 let liquors = ['whiskey', 'rum', 'vodka', 'gin', 'tequila', 'absinthe', 'brandy', 'mezcal', 'rye', 'scotch'];
 let fav = liquors[9];
 let fave = liquors[4];
@@ -106,6 +136,9 @@ if (guessLiquor === fav){
 } else {
   alert(`you are out of guesses. The correct answers are ${fav} and ${fave}.`);
 }
+}
+
+quest7();
 
 
 
