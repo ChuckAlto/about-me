@@ -9,6 +9,8 @@ body {
   background: radial-gradient( black 30%, rgb(255, 102, 0) 10%, black 50%);
 }
 
+
+
  h1 {
    font-size: 3em;
    text-align: center;
@@ -26,7 +28,7 @@ body {
    background: linear-gradient(darkorange, orangered);
    font-size: large;
    width: 50em;
-   margin-left: 27em;
+   margin: auto;
    margin-bottom: 20px;
    border: groove burlywood 15px;
    padding: 5px;
@@ -38,7 +40,7 @@ body {
    font-size: larger;
    color: rgb(209, 179, 134);
    width: 50em;
-   margin-left: 27em;
+   margin:auto;
    margin-bottom: 20px;
    border: groove burlywood 15px;
    padding: 5px;
@@ -49,7 +51,7 @@ body {
    font-size: larger;
    color: wheat;
    width: 50em;
-   margin-left: 27em;
+   margin: auto;
    margin-bottom: 20px;
    border: groove burlywood 15px;
    padding: 5px;
@@ -60,11 +62,68 @@ body {
    font-size: larger;
    color: white;
    width: 50em;
-   margin-left: 27em;
    border: groove burlywood 15px;
    padding: 5px;
+   margin: auto;
  }
  
+ h2 {
+   color: whitesmoke;
+   text-align: center;
+   font-size: 60px;
+ }
+ ol {
+   color: whitesmoke;
+   font-size: larger;
+   list-style: l;
+   list-style-position: inside;
+   font-size: xx-large;
+   margin: auto;
+   width: 15em;
+ }
+ ul {
+   color: whitesmoke;
+   margin: auto;
+   width: 100%;
+   list-style: square;
+   list-style-position: inside;
+}
+
+ .unOrderOne {
+   font-size: 40px;
+ }
+ .unOrderTwo {
+   font-size: 40px;
+ }
+ 
+ .secOne {
+   border: 12px inset grey;
+   width: fit-content;
+   padding: 10px;
+   padding-top: 6px;
+   margin: auto;
+   margin-bottom: 10px;
+   
+  }
+
+  .subOne {
+    padding-left: 2em;
+    font-size: 30px;
+  }
+  .secTwo {
+    border: 12px inset grey;
+   width: fit-content;
+   padding: 10px;
+   padding-top: 6px;
+   margin: auto;
+   }
+  
+  .unOrderThree {
+    color: whitesmoke;
+    font-size: 30px;
+  }
+  
+
  footer {
    text-align: right;
    color: whitesmoke;
