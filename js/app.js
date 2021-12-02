@@ -63,4 +63,51 @@ if (ansFive === 'yes' || ansFive === 'y'){
   alert('Sorry ' + user + ' wrong answer. whether it be my job or in my own free time I would like to design, code, and release at least one game.');
 }
 
-alert('Thanks for playing ' + user + ', you got ' + counter + '/5 correct.  Hope you learned a little more about me.');
+let correctA = '37';
+let attempts = 3;
+let guessNum = prompt('guess a number between 0 and 100.');
+
+while (guessNum !== correctA && attempts > 0){
+  attempts--;
+  if (guessNum > 37){
+    alert('that number is too high.');
+  } else if (guessNum < 37){
+    alert('that number is too low.');
+  }
+  guessNum = prompt('Guess Again');
+}
+
+if(guessNum === '37'){
+  alert('That is the right number');
+  counter++;
+} else {
+  alert('out of guesses the correct answer was 37');
+}
+
+let liquors = ['whiskey', 'rum', 'vodka', 'gin', 'tequila', 'absinthe', 'brandy', 'mezcal', 'rye', 'scotch'];
+let fav = liquors[9];
+let fave = liquors[4];
+let guessLiquor = prompt(`What are my favorite types of liquor? possible answers include ${liquors[0]}, ${liquors[1]}, ${liquors[2]}, ${liquors[3]}, ${liquors[4]}, ${liquors[5]}, ${liquors[6]}, ${liquors[7]}, ${liquors[8]}, and ${liquors[9]}. There are two correct answers.`).toLowerCase();
+let attempt = 5;
+
+while (guessLiquor !== fav && guessLiquor !== fave && attempt > 0){
+  attempt--;
+  if (guessLiquor !== fav){
+    alert('Wrong Liquor!');
+  }
+  guessLiquor = prompt('Guess Again');
+}
+if (guessLiquor === fav){
+  alert(`That is Correct the other correct answer was ${fave}.`);
+  counter++;
+} else if (guessLiquor === fave){
+  alert(`That is correct. The other correct answer was ${fav}.`);
+  counter++;
+} else {
+  alert(`you are out of guesses. The correct answers are ${fav} and ${fave}.`);
+}
+
+
+
+
+alert(`Thanks for playing ${user}, you got ${counter}/7 correct.  Hope you learned a little more about me.`);
