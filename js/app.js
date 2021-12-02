@@ -46,7 +46,7 @@ if (ansTwo === 'yes' || ansTwo === 'y'){
 quest2();
 
 
-function quest3 ({
+function quest3 (){
 
 let ansThree= prompt('Did I watch the X-files too much growing up?').toLowerCase();
 //console.log('never')
