@@ -87,7 +87,7 @@ if(guessNum === '37'){
 let liquors = ['whiskey', 'rum', 'vodka', 'gin', 'tequila', 'absinthe', 'brandy', 'mezcal', 'rye', 'scotch'];
 let fav = liquors[9];
 let fave = liquors[4];
-let guessLiquor = prompt(`What are my favorite types of liquor? possible answers include ${liquors[0]}, ${liquors[1]}, ${liquors[2]}, ${liquors[3]}, ${liquors[4]}, ${liquors[5]}, ${liquors[6]}, ${liquors[7]}, ${liquors[8]}, and ${liquors[9]}. There are two correct answers.`).toLowerCase();
+let guessLiquor = prompt(`What are my favorite types of liquor?        possible answers include ${liquors[0]}, ${liquors[1]}, ${liquors[2]}, ${liquors[3]}, ${liquors[4]}, ${liquors[5]}, ${liquors[6]}, ${liquors[7]}, ${liquors[8]}, and ${liquors[9]}. There are two correct answers.`).toLowerCase();
 let attempt = 5;
 
 while (guessLiquor !== fav && guessLiquor !== fave && attempt > 0){
