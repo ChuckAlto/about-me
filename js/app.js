@@ -73,7 +73,7 @@ if (ansFour === 'yes' || ansFour === 'y'){
 }
 quest4();
 
-function quest5 ({
+function quest5 (){
 let ansFive = prompt('Would I like to design video games after Code Fellows?').toLowerCase();
 //console.log('yes I would')
 if (ansFive === 'yes' || ansFive === 'y'){
