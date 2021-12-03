@@ -7,5 +7,7 @@ Wrote a biography and added 5 question prompts. also a prompt to ask your name. 
 added two more questions and made sure that a total correct was given to a user at the end of the quiz. one questions had to have the potential to have multiple answers that were stored in an array.
 also added an ordered top ten list, and an unordered education/experience list.
 
-## Driver: JT we done good boss !
-## Navigator: Chuck I'm better than amelia earheart!
+## lab 4
+Through peer coding JT and I added functions to all questions.
+### Driver: JT we done good boss !
+### Navigator: Chuck I'm better than amelia earheart!
